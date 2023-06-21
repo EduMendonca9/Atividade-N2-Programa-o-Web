@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Receitas</title>
+        <style>
+            @import url('https://fonts.cdnfonts.com/css/trajan-pro');
+            *
+            {
+                font-family: 'Trajan Pro', sans-serif;
+                box-sizing: border-box;
+            }
+            .Menu
+            {
+                padding: 0px;
+                list-style: none;
+                background-color: black;
+                width: 100%;
+            }
+            li
+            {
+                padding: 20px;
+            }
+            .Receitas
+            {
+                display: flex;
+                width: 90%;
+                background-color: rgb(0, 0, 0);
+                color: white;
+            }
+            img
+            {
+                margin-top: 20%;
+                width: 400px;
+                height: 300px;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+                margin-bottom: 10px;
+                border: 3px solid orange;
+            }
+            ul
+            {
+                list-style: none;
+            }
+            .ingredientes ul
+            {
+                padding: 0;
+            }
+            .Preparo ul
+            {
+                padding: 0;
+            }
+            .NomeImagem
+            {
+                border: 4px solid rgb(255, 255, 255);
+                width: 30%;
+            }
+            .ingredientes
+            {
+                border-top: 4px solid rgb(255, 255, 255);
+                border-right: 4px solid rgb(255, 255, 255);
+                border-bottom: 4px solid rgb(255, 255, 255);
+                width: 35%;
+            }
+            .Preparo
+            {
+                border-top: 4px solid rgb(255, 255, 255);
+                border-right: 4px solid rgb(255, 255, 255);
+                border-bottom: 4px solid rgb(255, 255, 255);
+                width: 35%;
+            }
+            .Comida
+            {
+                margin-top: 90px;
+            }
+            a
+            {
+                text-decoration: none;
+            }
+            .Menu li
+            {
+                display: inline;
+                color: rgb(255, 255, 255);
+                margin-left: 16%;
+                font-weight: 900;
+                text-shadow: 0px 0px 2px white;
+            }
+            .Menu li a
+            {
+                color: white;
+                display: inline-block;
+                padding: 20px;
+            }
+            .Menu li a:hover
+            {
+                background-color: rgb(140, 140, 146);
+            }
+            body
+            {
+                background-color: rgb(143, 143, 143);
+                margin: 0;
+            }
+            .titulo
+            {
+                display: flex;
+            }
+            .titulo img
+            {
+                margin-top: 19px;
+                margin-left: 4px;
+                margin-right: 0;
+                width: 50px;
+                height: 50px;
+                border: 0px;
+            }
+            .titulo h1
+            {
+                margin-left: 1px;
+                color: rgb(255, 255, 255);
+                text-shadow: 2px 2px 2px black;
+            }
+            .titulo2
+            {
+                display: flex;
+                margin-left: 36%;
+                text-shadow: 1px 1px 1px rgb(0, 0, 0);
+            }
+            .titulo2 img
+            {
+                margin-top: 7px;
+                margin-left: 4px;
+                margin-right: 0;
+                width: 70px;
+                height: 70px;
+                border: 0px;
+            }
+            .vrau
+            {
+                margin-left: 100px;
+            }
+            .titulo2 h1
+            {
+                text-align: center;
+            }
+            header
+            {
+                background-color: white;
+            }
+            .Receitas
+            {
+                margin-left: 20px;
+            }
+            h3
+            {
+                color: rgb(158, 132, 95);
+            }
+        </style>
+        <header>
+
+            <div class="titulo2">
+                <img src="Figura2.png">
+                <h1>Receitas Culinarias</h1>
+                <img src="Figura2.png">
+            </div>
+
+            <ul class="Menu">
+                <li><a href="#Entradas">ENTRADAS</a></li>
+                <li><a href="#Principal">PRATOS PRINCIPAIS</a></li>
+                <li><a href="#Sobremesas">SOBREMESA</a></li>
+            </ul>
+        </header>
+    </head>
+    <body>
+        <a id="Entradas">
+            <div class="titulo">
+                <img src="Figura.png">
+                <h1>Entradas</h1>
+                <img src="Figura.png">
+            </div>
+            <br>
+            <div class="Receitas">
+                <div class="item NomeImagem">
+                    <h2 style="margin-left: 10px; margin-right: 10px;" >Almôndegas de quinoa e queijo</h1>
+                    <img src="2cb6823c975ee09b0d93e071c71c86d5.jpg">
+                </div>
+                <div class="item ingredientes">
+                    <h2 style="margin-left: 5px;">Ingredientes</h2>
+                    <ul>
+                        <li>1 xícara de quinoa cozinhada</li>
+                        <li>1 unidade de ovo</li>
+                        <li>1 xícara de farinha de trigo (140 gramas)</li>
+                        <li>1 xícara de farinha de rosca</li>
+                        <li>1 queijo parmesão ralado</li>
+                        <li>1 pimenta do reino</li>
+                    </ul>
+                </div>
+                <div class="item Preparo">
+                    <h2 style="margin-left: 5px;">Preparo</h2>
+                    <ul>
+                        <li>1-Primeira coisa que você deve fazer é reunir todos os ingredientes.</li>
+                        <li>2-Bata o ovo e tempere com sal e pimenta a gosto.</li>
+                        <li>3-É adicione o queijo ralado ao ovo e mexer.</li>
+                        <li>4-Acrescente também a quinoa e misture muito bem.</li>
+                        <li>5-Misture bem e modele almôndegas bem firmes e compactas.</li>
+                        <li>6-Passe as almôndegas pela farinha de rosca e frite em óleo quente abundante, até que estejam bem douradas.</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <div class="Receitas">
+                <div class="item NomeImagem">
+                    <h2 style="margin-left: 10px; margin-right: 10px;" >Nachos com guacamole</h1>
+                    <img src="guacamole-dip-nachos-plate-isolated-white-background-37190887.jpg">
+                </div>
+                <div class="item ingredientes">
+                    <h2 style="margin-left: 5px;">Ingredientes</h2>
+                    <ul>
+                        <li>250 gramas de nachos</li>
+                        <li>3 unidades de abacate</li>
+                        <li>½ unidade de cebola branca</li>
+                        <li>1 unidade de tomate maduro</li>
+                        <li>1 unidade de limão</li>
+                        <li>1 Coentro a gosto</li>
+                        <li>1 Pimenta do reino</li>
+                        <li>1 Sal</li>
+                    </ul>
+                </div>
+                <div class="item Preparo">
+                    <h2 style="margin-left: 5px;">Preparo</h2>
+                    <ul>
+                        <li>1-Descasque os abacates e esmague-os em uma tigela. Adicione o suco de limão e misture para obter um purê homogêneo.</li>
+                        <li>2-Acrescente o coentro picado e misture.</li>
+                        <li>3-Acrescente agora o tomate picado finamente (sem as sementes) e a cebola também picada finamente. Misture muito bem e retifique o sabor com sal e pimenta.</li>
+                        <li>4-Se quiser pode triturar o preparado com o mixer ou no liquidificador, para ficar bem homogêneo. Finalmente sirva os nachos com guacamole e aprecie esta receita mexicana!</li>
+                    </ul>
+                </div>
+            </div>
+            <br>
+            <div class="Receitas">
+                <div class="item NomeImagem">
+                    <h2 style="margin-left: 10px; margin-right: 10px;" >Bolinho de arroz</h1>
+                    <img src="bolinho-de-arroz-de-forno-1.jpeg">
+                </div>
+                <div class="item ingredientes">
+                    <h2 style="margin-left: 5px;">Ingredientes</h2>
+                    <ul>
+                        <li>1 xícara de arroz cozido</li>
+                        <li>1 unidade de ovo</li>
+                        <li>½ xícara de farinha de trigo ou de rosca</li>
+                        <li>½ xícara de queijo ralado</li>
+                        <li>1 unidade de cebola pequena</li>
+                        <li>1 copo pequeno de cheiro verde picado</li>
+                        <li>1 pitada de sal</li>
+                        <li>1 pitada de pimenta do reino</li>
+                        <li>1 óleo para fritar</li>
+                    </ul>
+                </div>
+                <br>
+                <div class="item Preparo">
+                    <h2 style="margin-left: 5px;">Preparo</h2>
+                    <ul>
+                        <li>1-O primeiro passo da receita de bolinho de arroz consiste em bater os ovos.</li>
+                        <li>2-picar a cebola .</li>
+                        <li>3-misturar todos os ingredientes em uma tigela.</li>
+                        <li>4-Mexa bem, com uma colher ou com as mãos, até conseguir uma pasta.</li>
+                        <li>5-Em seguida molde os bolinhos num formato redondo ou oval e coloque fritando em óleo quente. Se preferir uma opção mais saudável, leve a assar no forno pré-aquecido a 180º durante 20 min.</li>
+                        <li>6-Assim que os bolinhos de arroz estiverem dourados, coloque-os em papel-toalha (necessário apenas se tiver optado por fritar) e sirva como entrada ou como acompanhamento de um prato principal.</li>
+                    </ul>
+                </div>
+            </div></a>
+            <br>
+
+            <a id="Principal">
+                <div class="titulo">
+                    <img src="Figura.png">
+                    <h1>Pratos Principais</h1>
+                    <img src="Figura.png">
+                </div>
+                <br>
+                    <div class="Receitas">
+                        <div class="item NomeImagem">
+                            <h2 style="margin-left: 10px; margin-right: 10px;" >Feijoada típica</h1>
+                            <img class="Comida" src="https://i.postimg.cc/BQF8bb9t/Feijoada.jpg">
+                        </div>
+                        <div class="item ingredientes">
+                            <h2 style="margin-left: 5px;">Ingredientes</h2>
+                            <ul>
+                                <li>1 kg de feijão preto</li>
+                                <li>2 línguas defumadas ou salgadas</li>
+                                <li>1/2 kg de costelinha de porco salgada</li>
+                                <li>1/2 kg de lingüiça calabresa defumada</li>
+                                <li>1/4 kg de toucinho defumado</li>
+                                <li>3 cebolas cortadas em cubos</li>
+                                <li>4 folhas de louro</li>
+                                <li>1/2 xícara de óleo ou banha de porco</li>
+                                <li>2 paios</li>
+                                <li>3 dentes de alho picados</li>
+                            </ul>
+                        </div>
+                        <div class="item Preparo">
+                            <h2 style="margin-left: 5px;">Preparo</h2>
+                            <ul>
+                                <li>1-Escolha o feijão e deixe de molho por 12 horas.</li>
+                                <li>2-Lave bem as carnes salgadas, corte em pedaços e deixe de molho em água por 12 horas, trocando a água pelo menos duas vezes.</li>
+                                <li>3-Coloque o feijão para cozinhar em bastante água com as folhas de louro.</li>
+                                <li>4-Em uma panela à parte, cozinhe por ½ hora as carnes salgadas, escorra a água e reserve.</li>
+                                <li>5-Quando o feijão estiver começando a amolecer, coloque as carnes, a lingüiça e o paio e deixe ferver em fogo brando até estar tudo bem cozido (leva algum tempo: de 2 a 3 horas).</li>
+                                <li>6-Esquente o óleo ou banha de porco e refogue os temperos.</li>
+                                <li>7-Coloque uma concha do feijão, amasse bem e deixe ferver despeje na feijoada e deixe ferver por mais 30 minutos.</li>
+                                <li>8-Sirva bem quente acompanhado de couve picada fina e refogada, farinha de mandioca crua, gomos de laranja e uma cerveja bem gelada.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="Receitas">
+                        <div class="item NomeImagem">
+                            <h2 style="margin-left: 10px; margin-right: 10px;" >Hambúrguer Caseiro</h1>
+                            <img src="Humburguer.png">
+                        </div>
+                        <div class="item ingredientes">
+                            <h2 style="margin-left: 5px;">Ingredientes</h2>
+                            <ul>
+                                <li>1 kg de carne moída</li>
+                                <li>1 sachê de creme de cebola(65g)</li>
+                                <li>1 sal a gosto</li>
+                                <li>1 pimenta do reino a gosto</li>
+                                <li></li>
+                            </ul>
+                        </div>
+                        <div class="item Preparo">
+                            <h2 style="margin-left: 5px;">Preparo</h2>
+                            <ul>
+                                <li>1-Em uma tigela ou bacia, coloque toda a carne moída, o creme de cebola, o sal e a pimenta.</li>
+                                <li>2-Misture tudo com as mãos, amassando e misturando bem.</li>
+                                <li>3-Em seguida divida a carne em 5 porções iguais.</li>
+                                <li>4-Faça bolinhas com cada parte.</li>
+                                <li>5-Em seguida, com as mãos, achate as bolinhas para dar formato no hambúrguer</li>
+                                <li>6-Em uma frigideira, aqueça um fio de azeite e acomode o hambúrguer</li>
+                                <li>7-Doure dos dois lados e sirva</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="Receitas">
+                        <div class="item NomeImagem">
+                            <h2 style="margin-left: 10px; margin-right: 10px;" >Lasanha de carne moída</h1>
+                            <img class="Comida" src="Lasanha.png">
+                        </div>
+                        <div class="item ingredientes">
+                            <h2 style="margin-left: 5px;">Ingredientes</h2>
+                            <ul>
+                                <li>500 g de massa de lasanha</li>
+                                <li>2 caixas de creme de leite</li>
+                                <li>3 colheres de farinha de trigo</li>
+                                <li>500 g de mussarela</li>
+                                <li>2 copos de leite</li>
+                                <li>3 colheres de óleo</li>
+                                <li>3 dentes de alho amassados</li>
+                                <li>500 g de carne moída</li>
+                                <li>3 colheres de manteiga</li>
+                                <li>500 g de presunto</li>
+                                <li>1 sal a gosto</li>
+                                <li>1 cebola ralada</li>
+                                <li>1 caixa de molho de tomate</li>
+                                <li>1 pacote de queijo ralado</li>
+                            </ul>
+                        </div>
+                        <div class="item Preparo">
+                            <h2 style="margin-left: 5px;">Preparo</h2>
+                            <ul>
+                                <li>1-Cozinhe a massa segundo as orientações do fabricante, despeje em um refratário com água gelada para não grudar e reserve.</li>
+                                <li>2-Refogue o alho, a cebola, a carne moída, o molho de tomate, deixe cozinhar por 3 minutos e reserve.</li>
+                                <li>3-Derreta a margarina, coloque as 3 colheres de farinha de trigo e mexa.</li>
+                                <li>4-Despeje o leite aos poucos e continue mexendo.</li>
+                                <li>5-Por último, coloque o creme de leite, mexa por 1 minuto e desligue o fogo.</li>
+                                <li>6-Despeje uma parte do molho à bolonhesa em um refratário, a metade da massa, a metade do presunto, a metade da mussarela, todo o molho branco e o restante da massa.</li>
+                                <li>Repita as camadas até a borda do recipiente.</li>
+                                <li>Finalize com o queijo ralado e leve ao forno alto (220° C), preaquecido, por cerca de 20 minutos.</li>
+                            </ul>
+                        </div>
+                    </div></a>
+                    <br>
+
+                    <a id="Sobremesas">
+                        <div class="titulo">
+                            <img src="Figura.png">
+                            <h1>Sobremesas</h1>
+                            <img src="Figura.png">
+                        </div>
+                        <br>
+                            <div class="Receitas">
+                                <div class="item NomeImagem">
+                                    <h2 style="margin-left: 10px; margin-right: 10px;" >Pudim</h1>
+                                    <img src="Pudim.png">
+                                </div>
+                                <div class="item ingredientes">
+                                    <h2 style="margin-left: 5px;">Ingredientes</h2>
+                                    <ul>
+                                        <li>2 xícaras de chá de açúcar</li>
+                                        <li>½ xícara de chá de água</li>
+                                        <li>1 lata de leite condensado</li>
+                                        <li>1 lata de creme de leite</li>
+                                        <li>1 lata de leite (use a lata de leite condensado como medida)</li>
+                                        <li>1 gelatina sem sabor</li>
+                                    </ul>
+                                </div>
+                                <div class="item Preparo">
+                                    <h2 style="margin-left: 5px;">Preparo</h2>
+                                    <ul>
+                                        <li>1-Coloque o açúcar e a água em uma forma redonda com um furo no meio, misture e leve ao fogo médio até ferver.</li>
+                                        <li>2-Quando começar a ferver, mexa a forma lentamente para que a calda não empedre, até ficar um caramelo dourado.</li>
+                                        <li>3-Retire do fogo e espalhe a calda pela forma de modo uniforme e reserve.</li>
+                                        <li>4-Dissolva a gelatina de acordo com as instruções do produto.</li>
+                                        <li>5-Em um liquidificador, coloque o leite condensado, o creme de leite, o leite, a gelatina dissolvida e bata até formar um creme homogêneo e liso.</li>
+                                        <li>6-Despeje a massa na forma com a calda e leve para a geladeira até ficar bem firme e depois sirva.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="Receitas">
+                                <div class="item NomeImagem">
+                                    <h2 style="margin-left: 10px; margin-right: 10px;" >Bolo de chocolate</h1>
+                                    <img class="Comida" src="bolo-chocolate-simples-1.jpg">
+                                </div>
+                                <div class="item ingredientes">
+                                    <h2 style="margin-left: 5px;">Ingredientes</h2>
+                                    <h3>Massa</h3>
+                                    <ul>
+                                        <li>3 ovos</li>
+                                        <li>2 xícaras (chá) de farinha de trigo</li>
+                                        <li>1/2 xícara (chá) de óleo</li>
+                                        <li>1 pitada de sal</li>
+                                        <li>1 e 1/2 xícara (chá) de açúcar</li>
+                                        <li>1 xícara (chá) de chocolate em pó ou achocolatado</li>
+                                        <li>1 colher (sopa) de fermento em pó</li>
+                                        <li>1 xícara (chá) de água quente</li>
+                                    </ul>
+                                    <h3>Cobertura</h3>
+                                    <ul>
+                                        <li>4 colheres (sopa) de leite</li>
+                                        <li>1 colher (sopa) de manteiga</li>
+                                        <li>1/2 xícara (chá) de chocolate em pó</li>
+                                        <li>1 xícara (chá) de açúcar</li>
+                                    </ul>
+                                </div>
+                                <div class="item Preparo">
+                                    <h2 style="margin-left: 5px;">Preparo</h2>
+                                    <h3>Massa</h3>
+                                    <ul>
+                                        <li>1-Em um liquidificador, bata os ovos, o açúcar, o óleo, o achocolatado e a farinha de trigo.</li>
+                                        <li>2-Despeje a massa em uma tigela e adicione a água quente e o fermento, misturando bem.</li>
+                                        <li>3-Despeje a massa em uma forma untada e asse em forno médio-alto (200° C), preaquecido, por 40 minutos.</li>
+                                        <li>4-Desenforme ainda quente.</li>
+                                    </ul>
+                                    <h3>Cobertura</h3>
+                                    <ul>
+                                        <li>Em uma panela, leve todos os ingredientes ao fogo até levantar fervura.</li>
+                                        <li>Despeje ainda quente em cima do bolo.</li>
+                                    </ul>
+                                </div>
+                            </div></a>
+                            
+
+        
+        
+    </body>
+</html>
